@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <!-- Utilizaremos este charset para que nos hacepte una gran amplia de caracteres como acentos.-->
+        <meta charset="UTF-8">
+        <!--se le asugna un titulo a la pagina-->
+        <title>Actividad08</title>
+        <!--cierre de el encabezado del ttiulo-->
+</head>
+<!--se le agrega un estilo creando clases-->
+<style>
+        <!--se le asigna un color al primer encabezado, asi como sus dimenciones -->
+        #h1-1
+        {
+        background-color:
+        #000000;
+        padding:
+        30px;
+        }
+
+<!--se le asigna un color al segundo encabezado -->
+#h1-2 { background-color: #cf4b89; padding: 25px;}
+</style>
+
+<body>
+        <!--define el contenido principal del documento HTML.-->
+        <center>
+                <!--se utiliza para centrar el contenido que se encuentra dentro de ella-->
+                <h1 id="h1-1">
+                        <!--asigna un identificador único que podría ser utilizado para estilos internos.-->
+                        <p style="color: rgb(255, 255, 255);"> Práctica 3.
+                </h1>
+                </p>
+                <!--define un párrafo con un color.
+    </center>
+
+    <h1 id="h1-2">Poema romantico dos hermanos.</h1>
+    <img src="12.jpg" alt="imagen de hermanos" style="width: 100%; height: 50%;" />
+    <!--nserta una imagen en la página, especifica la ruta de la imagen, proporciona a la imagen-->
+                <!--asigna una altura y lo ancho de la imagen-->
+                <center>
+                        <!--abre otro contenido centrado.-->
+                        <pre>
+<!--se utiliza para mostrar texto preformateado es decir con saltos de linea-->
+
+        <font color="red">Podra nublarse el Sol eternmente,</font>
+	<!-- establece el color del texto en rojo y muestra el texto-->
+        <font color="Orange">Podra secarse en un istante el Mar,</font>
+	<!-- establece el color del texto en rojo y muestra el texto-->
+        <font color="Yellow ">Mas no podre vivir si estas ausente,</font>
+	<!-- establece el color del texto en rojo y muestra el texto-->
+        <font color="Green">Me morire si me dejas de Amar.</font>
+        <font color="Yellow ">Mas no podre vivir si estas ausente,</font>
+        <font color="Blue">Todo sucedera, podra la muerte,</font>
+        <font color="Yellow ">Mas no podre vivir si estas ausente,</font>
+        <font color="Pink">Cubrirme con su funebre crespon,</font>
+        <font color="Violet">Pues no quiero vivir si no he de verte,</font>
+        <font color="Yellow ">Mas no podre vivir si estas ausente,</font>
+        <font color="Maroon"> Si me faltara la llama de tu amor.</font>
+    </pre>
+                        <!--cierra la sección de texto preformateado.-->
+                </center>
+                <!--cierra el contenido centrado.-->
+</body>
+<!-- cierra el cuerpo del documento HTML.-->
+</body>
+</html><!--cierra el documento HTML completo.-->
